@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Print statement synatx
 func main() {
 	fmt.Println("Hello from hemant kumar")
 	fmt.Println("Your are an noob programmer wanna be pro so partice hard as you can")
