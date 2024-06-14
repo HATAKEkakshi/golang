@@ -9,6 +9,7 @@ func main() {
 	fmt.Println("yes i gonna practice as hard as i can")
 	fmt.Println("testing go ")
 	fmt.Println("testing the lexer")
+	testing()
 }
 func testing() {
 	fmt.Println("this is testing code")
