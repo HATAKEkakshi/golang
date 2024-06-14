@@ -37,10 +37,23 @@ const LoginToken string = "testingthetoken" //Public
 		fmt.Printf("the type of public variable %T \n", LoginToken)
 	}
 */
+const vartest string = "hemant"
+
 func main() {
 	typeof()
+	varmethod()
+	constvariablemethod()
 }
 func typeof() {
 	var check string = "hemant"
-	fmt.Printf("checking of type of the function %T", check)
+	fmt.Printf("checking of type of the function %T \n", check)
+}
+func varmethod() {
+	var test string = "hemant"
+	test = "kumar"
+	fmt.Println("testing var method=", test)
+}
+func constvariablemethod() {
+	//vartest = "changed"  //It will throw an error as const variable values cannot be changed
+	fmt.Println("testing const method for changing the variable", vartest)
 }
