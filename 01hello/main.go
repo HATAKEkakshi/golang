@@ -10,3 +10,6 @@ func main() {
 	fmt.Println("testing go ")
 	fmt.Println("testing the lexer")
 }
+func testing() {
+	fmt.Println("this is testing code")
+}
