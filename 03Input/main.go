@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+/*func main() {
 	var welcome string = "Welcome to user input"
 	fmt.Println(welcome)
 	reader := bufio.NewReader(os.Stdin)
@@ -38,4 +38,17 @@ func marks() {
 	fmt.Println("Enter the marks of the student")
 	marksinput, _ := marksofstudent.ReadString('\n')
 	fmt.Println("the marks of student is :", marksinput)
+}
+*/
+
+func main() {
+	var test string = "Welcome"
+	fmt.Println(test, "Taking input from the user")
+	inputt()
+}
+
+func inputt() {
+	reader := bufio.NewReader(os.Stdin)
+	Input, _ := reader.ReadString('\n')
+	fmt.Println("input=", Input)
 }
